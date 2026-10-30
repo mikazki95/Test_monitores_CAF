@@ -30,3 +30,8 @@ Este repositorio es para crear test de perifericos para un sistema QNX de CAF
 - Montar partición QNX4 desde Tiny Core: `mount -t qnx4 /dev/sda1 /mnt/qnx`
 - Editar shadow: `vi /mnt/qnx/etc/shadow` (dejar `root::...`)
 - Generar hash DES: `perl -e 'print crypt("nueva", "AB"), "\n"'`
+
+- # Busca el PID de la HMI
+pidin | grep MMEX_Pixy
+matar proceso 
+kill 409655
