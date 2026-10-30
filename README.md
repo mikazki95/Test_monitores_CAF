@@ -13,6 +13,7 @@ Este repositorio es para crear test de perifericos para un sistema QNX de CAF
 - Script de CAF: `/etc/rc.d/rc.cafinit`
 - Script local: `/etc/rc.d/rc.local`
 - Lanzador CAF: `/home/traintic/bin/caf_start.ksh`
+- Lanzar aplicacion: `/home/traintic/bin/MMEX_Pixy &`
 - Lanzar con log: `./caf_start.ksh > /tmp/caf.log 2>&1 &`
 
 ## 3. Driver MVB (XCommSrv)
